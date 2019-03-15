@@ -7,7 +7,7 @@
 body {
     font-size: 18px;
     line-height: 34px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Lato', sans-serif;
     color: #777;
 }
 
@@ -29,7 +29,7 @@ p:last-child {
 }
 
 h1, h2, h3 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Lato', sans-serif;
     font-weight: 700;
     color: #4aaaa5;
 }
@@ -39,6 +39,8 @@ h1{
     line-height: 45px;
     border-bottom: 2px solid #ddd;
     padding-bottom: 20px;
+    letter-spacing: 2px;
+    font-weight: 600;
 }
 
 h2, h3 {
@@ -46,7 +48,7 @@ h2, h3 {
 }
 
 
-/* Headers */
+/* headers */
 #master-header {
     background: #fff;
     margin: 0 0 30px;
@@ -63,7 +65,7 @@ h2, h3 {
     height: 90px;
     background: #4aaaa5;
     float: left;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Lato', sans-serif;
     text-align: center;
     line-height: 90px;
     color: #fff;
@@ -75,6 +77,11 @@ h2, h3 {
 nav {
     float: right;
     margin-top: 25px;
+}
+
+nav a:hover {
+    color: lightskyblue;
+    font-weight: 400;
 }
 
 nav a {
@@ -92,7 +99,7 @@ nav a:first-child {
 }
 
 
-/* body */
+/* main body */
 #main-container  {
     padding-top: 130px;
 }
@@ -123,6 +130,9 @@ nav a:first-child {
     margin-right: 25px;
 }
 
+#connect img:hover {
+    background-color: lightgoldenrodyellow;
+}
 
 .main-sidebar {
     background: #fff;
@@ -172,10 +182,15 @@ h3, .main-sidebar, h2 {
     position: relative;
     float: left;
     margin: 20px 0 25px;
+
 }
 
 .projects:nth-child(even) {
     margin-right: 40px;
+}
+
+#completeproject:hover {
+    background-color: rgb(245, 56, 56);
 }
 
 .projects img {
@@ -206,6 +221,8 @@ h3, .main-sidebar, h2 {
     margin-bottom: 30px;
 }
 
+/* contact elements */
+
 label,
 input[type=text],
 input[type=email],
@@ -233,4 +250,4 @@ input[type=submit] {
     color: #fff;
     font-size: 10px;
     padding: 10px 20px;
-}
+} 
