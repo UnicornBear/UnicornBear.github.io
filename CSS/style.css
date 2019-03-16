@@ -102,6 +102,7 @@ nav a:first-child {
 /* main body */
 #main-container  {
     padding-top: 130px;
+    background: url("https://freeartbackgrounds.com/?1318,sand-from-desert-background");
 }
 
 .main-section {
@@ -196,7 +197,6 @@ h3, .main-sidebar, h2 {
 .projects img {
     width: 100%;
     opacity: .8;
-    overflow: auto;
 }
 
 .projects h3 {
