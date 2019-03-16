@@ -196,6 +196,7 @@ h3, .main-sidebar, h2 {
 .projects img {
     width: 100%;
     opacity: .8;
+    overflow: auto;
 }
 
 .projects h3 {
