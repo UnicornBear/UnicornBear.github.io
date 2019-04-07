@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>TMNT Pizza Eaters</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+<!-- BOOTSTRAP BUNDLE     -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   
+</head>
+
+    <body>
+
+        <div class = "container-fluid">
+            <h1><span>TMNT Pizza Eaters<span></h1>
+     
+            <div class="card text-center">
+                <p> You will be provided a target pizza eat amount at the start of a game.</p>
+                <p> The Teenage Mutant Ninja Turtles are at your ready to eat some pizza.</p>
+                <p> If you can eat the target amount you win, but if you eat too many, you lose.</p>
+                <p> Every game will be a new target pizaa amount, KAWABUNGA !!!.</p>
+            </div>
+ 
+            <h1><span id="status"></span></h1>
+            
+           <div class="card-deck">
+                <div class="card text-white bg-primary mb-4">
+                        <div class="card-body">
+                                <h2>Pizza Dilevery Amount: </h2> 	
+                                <h2 class="value"></h2>
+                        </div>
+                </div>
+
+                <div class="card text-white bg-success mb-4">
+                        <div class="card-body">
+                                <h3>Wins:</h3>
+                                <h3 id="win"></h3>	
+                        </div>
+                </div>                
+                
+                <div class="card text-white bg-danger mb-4"> 
+                        <div class="card-body">
+                                <h3>Losses:  </h3>	
+                                <h3 id="loss"></h3>
+                        </div>
+                </div>
+            </div>
+
+            <div id="tmnt"></div>
+
+            <div id ="totalScore">
+                <h2 id = "pizzeEat">TMNT Pizza Eaten Count: <span id ="yourScore">0</span></h2>
+            </div>
+
+        </div>
+
+
+    <!-- adding jQuery -->
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+        <script type="text/javascript" src="assets/javascript/game.js"></script>
+
+    </body>
+
+</html>
