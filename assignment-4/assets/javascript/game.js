@@ -50,11 +50,24 @@ $(document).ready(function() {
         // report your score as counter
         $('#yourScore').text(counter);
         
-        // need function for random generator
-		function randomIntFromInterval(min,max){
-		   	return Math.floor(Math.random()*(max-min+1)+min);
-            }       
+        // need function for random generator  --  having issue with count of 1 coming about.  
+		// function randomIntFromInterval(min,max){
+		//    	return Math.floor(Math.random()*(max-min+1)+min)
+        //     }       
             
+        function randomIntFromInterval(min,max){
+            var result =  Math.floor(Math.random()*(max-min+1)+min);
+            if(result < min){
+                result = min;
+            }
+            else if(result > max){
+                result = max;
+            }
+            console.log(result);
+            return result;
+         }
+
+
         // create variable for random number of pizzas
         var numberToGuess = randomIntFromInterval(19,120);
         
