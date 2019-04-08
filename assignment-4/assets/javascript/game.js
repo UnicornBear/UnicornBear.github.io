@@ -73,7 +73,7 @@ $(document).ready(function() {
             // wins increase by 1
             // report the wins
             if (counter == numberToGuess){
-		    $('#status').text('You won!!!!').show('fast').delay(2000).hide('fast');
+		    $('#status').text('You won, you ate the delivery order!!!!').show('fast').delay(2000).hide('fast');
 		    wins ++;
 		    $('#win').text(wins);
     
@@ -90,7 +90,7 @@ $(document).ready(function() {
             // losses increase by 1
             // report the losses
             else if ( counter > numberToGuess){
-	        $('#status').text('You lost!').show('fast').delay(2000).hide('fast');
+	        $('#status').text('You lost, you had to eat frozen pizza!').show('fast').delay(2000).hide('fast');
 	        losses ++;
             $('#loss').text(losses);
                 

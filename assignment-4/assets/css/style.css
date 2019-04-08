@@ -11,7 +11,8 @@ h1{
 }
 
 .card {
-    margin-bottom: 20px;
+	margin-bottom: 20px;
+	text-align: center;
 }
 
 #tmnt {
@@ -26,9 +27,3 @@ h1{
 	margin: 20px;
 }
 
-#pizzeEat {
-	background-color: rgb(53, 235, 17);
-	color: white;
-    text-align: center;
-	margin-bottom: 20px;
-}
