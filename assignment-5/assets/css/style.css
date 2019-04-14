@@ -1,22 +1,35 @@
     
 body{
-	background: url('../images/question-1.jpeg');
-	font-family: 'Raleway', sans-serif;
+	background: white;
+	font-family: 'times new roman', sans-serif;
 	font-size: 25px;
+	
+	/* elected FUNCTION to re-write js trying to consolidate the code over FORM 
+	    KEEP IT SIMPLE AND CLEAN           */
+	
+	/* background-image: url('../images/randomTrivia.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;  */
 }
 
 header{
 	margin-bottom: 20px;
+	text-align: center;
+	background-color: #202364;
+	color: white;
 }
 
 .btn-primary,.reset{
-	background-color: #313477;
+	background-color: lightblue;
 	color: white;
 	font-family: 'Sigmar One', sans-serif;
 	font-size: 30px;
 	padding: 20px;
 	margin-top: 100px;
 }
+
+/* provide css on buttons when hover */
 .btn-primary:hover, .reset:hover{
 	background-color: #202364;
 }
@@ -24,23 +37,24 @@ header{
 .container{
 	margin-top: 50px;
 	text-align: center;
-	height: 100%;
-	width: 700px;
 }
 
-h2, #message, #finalMessage{
-	font-family: Sigmar One;
-}
-
+/* provide css on choices when HOVER */
 .thisChoice:hover{
 	background-color: #202364;
 	color: white;
 	padding: 10px;
 }
 
-#gif{
-	margin: 30px;
+#timeLeft{
+	background-color: lightblue;
 }
+
+.question{
+	background-color: lightblue;
+	margin-top: 25px;
+}
+
 
 @media screen and (max-width:640px){
 	.container{
